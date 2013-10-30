@@ -1,0 +1,4 @@
+Esquematicos
+============
+
+Esquemáticos de KiCad
