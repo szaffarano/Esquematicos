@@ -1,0 +1,41 @@
+PCBNEW-LibModule-V1  sáb 26 oct 2013 21:00:45 ART
+# encoding utf-8
+Units mm
+$INDEX
+barrelJack
+$EndINDEX
+$MODULE barrelJack
+Po 0 0 0 15 526C5615 00000000 ~~
+Li barrelJack
+Sc 0
+AR 
+Op 0 0 0
+T0 -6.096 -2.54 1 1 900 0.15 N V 21 N "barrelJack"
+T1 3.048 -7.112 1 1 0 0.15 N V 21 N "VAL**"
+DS -5.08 -6.35 -5.08 6.35 0.15 21
+DS -5.08 6.35 5.08 6.35 0.15 21
+DS 5.08 6.35 5.08 -6.35 0.15 21
+DS 5.08 -6.35 -5.08 -6.35 0.15 21
+$PAD
+Sh "1" C 4.064 4.064 0 0 0
+Dr 3.302 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -3.048
+$EndPAD
+$PAD
+Sh "2" C 4.064 4.064 0 0 0
+Dr 3.302 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 2.54
+$EndPAD
+$PAD
+Sh "3" C 4.064 4.064 0 0 0
+Dr 3.302 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.286 0
+$EndPAD
+$EndMODULE barrelJack
+$EndLIBRARY

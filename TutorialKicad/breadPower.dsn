@@ -1,0 +1,189 @@
+(pcb /home/sebas/Circuitos/TutorialKicad/breadPower.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-june-11)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  190500 -121920  190500 -147320  224790 -147320  224790 -121920
+            190500 -121920)
+    )
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component "SOT23-5"
+      (place U1 220980 -134620 front 0 (PN NCP551))
+    )
+    (component "SIL-2"
+      (place P1 219710 -125730 front 270 (PN CONN_2))
+    )
+    (component D4
+      (place D1 199390 -143510 front 0 (PN DIODE))
+    )
+    (component C1V8
+      (place C2 212090 -128270 front 0 (PN "100 uF"))
+      (place C1 212090 -138430 front 0 (PN "100 uF"))
+    )
+    (component barrelJack
+      (place K1 198120 -134620 front 270 (PN CONN_3))
+    )
+  )
+  (library
+    (image "SOT23-5"
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  1524 -889  -1524 -889))
+      (outline (path signal 127  -1524 -889  -1524 889))
+      (outline (path signal 127  -1524 889  1524 889))
+      (pin Rect[T]Pad_508x762_um 1 -952.5 -1270)
+      (pin Rect[T]Pad_508x762_um 3 952.5 -1270)
+      (pin Rect[T]Pad_508x762_um 5 -952.5 1270)
+      (pin Rect[T]Pad_508x762_um 2 0 -1270)
+      (pin Rect[T]Pad_508x762_um 4 952.5 1270)
+    )
+    (image "SIL-2"
+      (outline (path signal 304.8  -2540 -1270  -2540 1270))
+      (outline (path signal 304.8  -2540 1270  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (pin Rect[A]Pad_1397x1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image D4
+      (outline (path signal 304.8  -3810 1270  3810 1270))
+      (outline (path signal 304.8  3810 1270  3810 -1270))
+      (outline (path signal 304.8  3810 -1270  -3810 -1270))
+      (outline (path signal 304.8  -3810 -1270  -3810 1270))
+      (outline (path signal 304.8  3175 1270  3175 -1270))
+      (outline (path signal 304.8  2540 -1270  2540 1270))
+      (outline (path signal 304.8  -3810 0  -5080 0))
+      (outline (path signal 304.8  3810 0  5080 0))
+      (pin Round[A]Pad_1778_um 1 -5080 0)
+      (pin Rect[A]Pad_1778x1778_um 2 5080 0)
+    )
+    (image C1V8
+      (outline (path signal 203.2  4064 0  3865.09 -1255.85  3287.84 -2388.76  2388.76 -3287.84
+            1255.85 -3865.09  0 -4064  -1255.85 -3865.09  -2388.76 -3287.84
+            -3287.84 -2388.76  -3865.09 -1255.85  -4064 0  -3865.09 1255.85
+            -3287.84 2388.76  -2388.76 3287.84  -1255.85 3865.09  0 4064
+            1255.85 3865.09  2388.76 3287.84  3287.84 2388.76  3865.09 1255.85))
+      (pin Rect[A]Pad_1651x1651_um 1 -1270 0)
+      (pin Round[A]Pad_1651_um 2 1270 0)
+    )
+    (image barrelJack
+      (outline (path signal 150  -5080 6350  -5080 -6350))
+      (outline (path signal 150  -5080 -6350  5080 -6350))
+      (outline (path signal 150  5080 -6350  5080 6350))
+      (outline (path signal 150  5080 6350  -5080 6350))
+      (pin Round[A]Pad_4064_um 1 -2540 3048)
+      (pin Round[A]Pad_4064_um 2 -2540 -2540)
+      (pin Round[A]Pad_4064_um 3 2286 0)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1651_um
+      (shape (circle F.Cu 1651))
+      (shape (circle B.Cu 1651))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle F.Cu 1778))
+      (shape (circle B.Cu 1778))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4064_um
+      (shape (circle F.Cu 4064))
+      (shape (circle B.Cu 4064))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_508x762_um
+      (shape (rect F.Cu -254 -381 254 381))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1651x1651_um
+      (shape (rect F.Cu -825.5 -825.5 825.5 825.5))
+      (shape (rect B.Cu -825.5 -825.5 825.5 825.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1778x1778_um
+      (shape (rect F.Cu -889 -889 889 889))
+      (shape (rect B.Cu -889 -889 889 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net /VDD
+      (pins U1-5 P1-1 C2-1)
+    )
+    (net GND
+      (pins U1-2 P1-2 C2-2 C1-2 K1-2)
+    )
+    (net "N-000004"
+      (pins D1-1 K1-1 K1-3)
+    )
+    (net "N-000005"
+      (pins U1-1 U1-3 D1-2 C1-1)
+    )
+    (class kicad_default "" GND
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+    (class power /VDD "N-000004" "N-000005"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 609.6)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 254  195580 -132080  195580 -124460)(net GND)(type protect))
+    (via "Via[0-1]_889:635_um"  195580 -132080 (net GND)(type protect))
+  )
+)

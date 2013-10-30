@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = sáb 26 oct 2013 21:04:09 ART
+
+BeginCmp
+TimeStamp = /526C4D5E;
+Reference = C1;
+ValeurCmp = 100 uF;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C4D4F;
+Reference = C2;
+ValeurCmp = 100 uF;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C4D9A;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C4D7C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = barrelJack;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C4D8B;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C4D28;
+Reference = U1;
+ValeurCmp = NCP551;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe
