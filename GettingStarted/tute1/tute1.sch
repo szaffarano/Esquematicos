@@ -1,0 +1,229 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Tute 1"
+Date "5 nov 2013"
+Rev "1.0"
+Comp ""
+Comment1 "Primeros pasos en Kicad"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R2
+U 1 1 52782A72
+P 6850 2675
+F 0 "R2" V 6930 2675 40  0000 C CNN
+F 1 "1K" V 6857 2676 40  0000 C CNN
+F 2 "~" V 6780 2675 30  0000 C CNN
+F 3 "~" H 6850 2675 30  0000 C CNN
+	1    6850 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 52782B1E
+P 6250 4250
+F 0 "R1" V 6330 4250 40  0000 C CNN
+F 1 "100" V 6257 4251 40  0000 C CNN
+F 2 "~" V 6180 4250 30  0000 C CNN
+F 3 "~" H 6250 4250 30  0000 C CNN
+	1    6250 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PIC12C508A U1
+U 1 1 52782B9E
+P 4900 3200
+F 0 "U1" H 4900 3900 60  0000 C CNN
+F 1 "PIC12C508A" H 4900 2550 60  0000 C CNN
+F 2 "" H 4900 3200 60  0000 C CNN
+F 3 "" H 4900 3200 60  0000 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 52782BE7
+P 6225 3000
+F 0 "D1" H 6225 3100 50  0000 C CNN
+F 1 "LED" H 6225 2900 50  0000 C CNN
+F 2 "~" H 6225 3000 60  0000 C CNN
+F 3 "~" H 6225 3000 60  0000 C CNN
+	1    6225 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MYCONN3 J1
+U 1 1 52782E02
+P 4275 4250
+F 0 "J1" H 4325 4625 50  0000 C CNN
+F 1 "MYCONN3" H 4300 3875 50  0000 C CNN
+F 2 "MODULE" H 4275 4250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4275 4250 50  0001 C CNN
+	1    4275 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 52782E54
+P 6850 2325
+F 0 "#PWR01" H 6850 2425 30  0001 C CNN
+F 1 "VCC" H 6850 2425 30  0000 C CNN
+F 2 "" H 6850 2325 60  0000 C CNN
+F 3 "" H 6850 2325 60  0000 C CNN
+	1    6850 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 52782ED9
+P 5100 4075
+F 0 "#PWR02" H 5100 4175 30  0001 C CNN
+F 1 "VCC" H 5100 4175 30  0000 C CNN
+F 2 "" H 5100 4075 60  0000 C CNN
+F 3 "" H 5100 4075 60  0000 C CNN
+	1    5100 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR03
+U 1 1 52782EF7
+P 4025 2600
+F 0 "#PWR03" H 4025 2700 30  0001 C CNN
+F 1 "VCC" H 4025 2700 30  0000 C CNN
+F 2 "" H 4025 2600 60  0000 C CNN
+F 3 "" H 4025 2600 60  0000 C CNN
+	1    4025 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 52782F06
+P 5100 4450
+F 0 "#PWR04" H 5100 4450 30  0001 C CNN
+F 1 "GND" H 5100 4380 30  0001 C CNN
+F 2 "" H 5100 4450 60  0000 C CNN
+F 3 "" H 5100 4450 60  0000 C CNN
+	1    5100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 52782F24
+P 5700 2825
+F 0 "#PWR05" H 5700 2825 30  0001 C CNN
+F 1 "GND" H 5700 2755 30  0001 C CNN
+F 2 "" H 5700 2825 60  0000 C CNN
+F 3 "" H 5700 2825 60  0000 C CNN
+	1    5700 2825
+	1    0    0    -1  
+$EndComp
+Text Label 5900 3400 0    60   ~ 0
+INPUT
+Text Label 6725 4250 0    60   ~ 0
+INPUT
+Text Label 5625 3000 0    60   ~ 0
+uCtoLED
+Text Label 5300 4250 0    60   ~ 0
+INPUTtoR
+Wire Wire Line
+	5600 3000 6025 3000
+Wire Wire Line
+	6850 2325 6850 2425
+Wire Wire Line
+	6850 3000 6425 3000
+Wire Wire Line
+	5600 2700 5700 2700
+Wire Wire Line
+	5700 2575 5700 2825
+Wire Wire Line
+	4150 2700 4025 2700
+Wire Wire Line
+	4025 2700 4025 2600
+Wire Wire Line
+	5600 3400 5900 3400
+Wire Wire Line
+	5025 4150 5100 4150
+Wire Wire Line
+	5100 4150 5100 4075
+Wire Wire Line
+	5025 4250 6000 4250
+Wire Wire Line
+	6500 4250 6725 4250
+Wire Wire Line
+	5025 4350 5100 4350
+Wire Wire Line
+	5100 4350 5100 4450
+Wire Wire Line
+	6850 2925 6850 3000
+Text Label 6475 3000 0    60   ~ 0
+LEDtoR
+NoConn ~ 4150 3000
+NoConn ~ 4150 3400
+NoConn ~ 4150 3700
+NoConn ~ 5600 3700
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 52783303
+P 5700 2575
+F 0 "#FLG06" H 5700 2670 30  0001 C CNN
+F 1 "PWR_FLAG" H 5700 2755 30  0000 C CNN
+F 2 "" H 5700 2575 60  0000 C CNN
+F 3 "" H 5700 2575 60  0000 C CNN
+	1    5700 2575
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2700
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5278333B
+P 7050 2375
+F 0 "#FLG07" H 7050 2470 30  0001 C CNN
+F 1 "PWR_FLAG" H 7050 2555 30  0000 C CNN
+F 2 "" H 7050 2375 60  0000 C CNN
+F 3 "" H 7050 2375 60  0000 C CNN
+	1    7050 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 2375 6850 2375
+Connection ~ 6850 2375
+Text Notes 6400 3625 0    60   ~ 0
+Comentario sobre el \nfuncionamiento del circuito
+$EndSCHEMATC

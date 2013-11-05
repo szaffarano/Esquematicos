@@ -1,0 +1,122 @@
+
+(session tute1.ses
+  (base_design tute1.dsn)
+  (placement
+    (resolution um 10)
+    (component R1
+      (place R2 2044700 -1295400 front 180)
+      (place R1 2247900 -1219200 front 90)
+    )
+    (component LEDV
+      (place D1 2044700 -1181100 front 0)
+    )
+    (component "DIP-8__300"
+      (place U1 2146300 -1219200 front 0)
+    )
+    (component 3PIN_6mm
+      (place J1 2159000 -1409700 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2013-june-11)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_889:635_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_889:0_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /INPUT
+        (wire
+          (path B.Cu 2540
+            2247900 -1206500
+            2184400 -1206500
+            2159000 -1181100
+          )
+        )
+      )
+      (net /INPUTtoR
+        (wire
+          (path B.Cu 2540
+            2159000 -1409700
+            2159000 -1320800
+            2247900 -1231900
+          )
+        )
+      )
+      (net /LEDtoR
+        (wire
+          (path B.Cu 2540
+            2032000 -1181100
+            2032000 -1295400
+          )
+        )
+      )
+      (net /uCtoLED
+        (wire
+          (path F.Cu 2540
+            2133600 -1181100
+            2122323 -1192377
+            2068677 -1192377
+            2057400 -1181100
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2540
+            2308860 -1409700
+            2308860 -1353034
+            2146300 -1190474
+            2146300 -1178032
+            2138196 -1169928
+            2119372 -1169928
+            2108200 -1181100
+          )
+        )
+      )
+      (net VCC
+        (wire
+          (path F.Cu 2540
+            2108200 -1257300
+            2097402 -1257300
+          )
+        )
+        (wire
+          (path F.Cu 2540
+            2057400 -1295400
+            2059302 -1295400
+            2097402 -1257300
+          )
+        )
+        (wire
+          (path B.Cu 2540
+            2009140 -1409700
+            2057400 -1361440
+            2057400 -1295400
+          )
+        )
+      )
+    )
+  )
+)

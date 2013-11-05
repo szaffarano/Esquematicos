@@ -1,0 +1,18 @@
+eeschema (2013-june-11)-stable  >> Creation date: Mon 04 Nov 2013 21:00:14 ART
+#Cmp ( order = Reference )
+| D1         LED         
+| J1         MYCONN3     
+| R1         100         
+| R2         1K          
+| U1         PIC12C508A  
+#End Cmp
+
+#Cmp ( order = Value )
+| LED          D1        
+| MYCONN3      J1        
+| 100          R1        
+| 1K           R2        
+| PIC12C508A   U1        
+#End Cmp
+
+#End List

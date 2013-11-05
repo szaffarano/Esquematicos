@@ -1,0 +1,156 @@
+(pcb /home/sebas/Circuitos/GettingStarted/tute1/tute1.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-june-11)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  187960 -109220  243840 -109220  243840 -152400  187960 -152400
+            187960 -109220)
+    )
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component R1
+      (place R2 204470 -129540 front 180 (PN 1K))
+      (place R1 224790 -121920 front 90 (PN 100))
+    )
+    (component LEDV
+      (place D1 204470 -118110 front 0 (PN LED))
+    )
+    (component "DIP-8__300"
+      (place U1 214630 -121920 front 0 (PN PIC12C508A))
+    )
+    (component 3PIN_6mm
+      (place J1 215900 -140970 front 0 (PN MYCONN3))
+    )
+  )
+  (library
+    (image R1
+      (outline (path signal 381  -1270 0  1270 0))
+      (outline (path signal 381  149.903 0  80.408 -438.774  -121.275 -834.598  -435.402 -1148.72
+            -831.226 -1350.41  -1270 -1419.9  -1708.77 -1350.41  -2104.6 -1148.72
+            -2418.72 -834.598  -2620.41 -438.774  -2689.9 0  -2620.41 438.774
+            -2418.72 834.598  -2104.6 1148.72  -1708.77 1350.41  -1270 1419.9
+            -831.226 1350.41  -435.402 1148.72  -121.275 834.598  80.408 438.774))
+      (pin Round[A]Pad_1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image LEDV
+      (outline (path signal 304.8  2540 0  2415.68 -784.903  2054.9 -1492.97  1492.97 -2054.9
+            784.903 -2415.68  0 -2540  -784.903 -2415.68  -1492.97 -2054.9
+            -2054.9 -1492.97  -2415.68 -784.903  -2540 0  -2415.68 784.903
+            -2054.9 1492.97  -1492.97 2054.9  -784.903 2415.68  0 2540  784.903 2415.68
+            1492.97 2054.9  2054.9 1492.97  2415.68 784.903))
+      (outline (path signal 304.8  2540 635  1905 635))
+      (outline (path signal 304.8  1905 635  1905 -635))
+      (outline (path signal 304.8  1905 -635  2540 -635))
+      (pin Rect[A]Pad_1397x1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image "DIP-8__300"
+      (outline (path signal 254  -5080 1270  -3810 1270))
+      (outline (path signal 254  -3810 1270  -3810 -1270))
+      (outline (path signal 254  -3810 -1270  -5080 -1270))
+      (outline (path signal 254  -5080 2540  5080 2540))
+      (outline (path signal 254  5080 2540  5080 -2540))
+      (outline (path signal 254  5080 -2540  -5080 -2540))
+      (outline (path signal 254  -5080 -2540  -5080 2540))
+      (pin Rect[A]Pad_1397x1397_um 1 -3810 -3810)
+      (pin Round[A]Pad_1397_um 2 -1270 -3810)
+      (pin Round[A]Pad_1397_um 3 1270 -3810)
+      (pin Round[A]Pad_1397_um 4 3810 -3810)
+      (pin Round[A]Pad_1397_um 5 3810 3810)
+      (pin Round[A]Pad_1397_um 6 1270 3810)
+      (pin Round[A]Pad_1397_um 7 -1270 3810)
+      (pin Round[A]Pad_1397_um 8 -3810 3810)
+    )
+    (image 3PIN_6mm
+      (outline (path signal 381  -21590 6350  21590 6350))
+      (outline (path signal 381  21590 6350  21590 -6350))
+      (outline (path signal 381  21590 -6350  -21590 -6350))
+      (outline (path signal 381  -21590 -6350  -21590 6350))
+      (pin Round[A]Pad_10160_um 1 -14986 0)
+      (pin Round[A]Pad_10160_um 3 14986 0)
+      (pin Round[A]Pad_10160_um 2 0 0)
+    )
+    (padstack Round[A]Pad_10160_um
+      (shape (circle F.Cu 10160))
+      (shape (circle B.Cu 10160))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net /INPUT
+      (pins R1-2 U1-6)
+    )
+    (net /INPUTtoR
+      (pins R1-1 J1-2)
+    )
+    (net /LEDtoR
+      (pins R2-2 D1-1)
+    )
+    (net /uCtoLED
+      (pins D1-2 U1-7)
+    )
+    (net GND
+      (pins U1-8 J1-3)
+    )
+    (net VCC
+      (pins R2-1 U1-1 J1-1)
+    )
+    (class kicad_default "" /INPUT /INPUTtoR /LEDtoR /uCtoLED GND VCC
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
