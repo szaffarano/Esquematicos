@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Tue 05 Nov 2013 19:56:18 ART
+
+BeginCmp
+TimeStamp = /5278D316;
+Reference = C1;
+ValeurCmp = 0.01 uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D185;
+Reference = IC1;
+ValeurCmp = 7400;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D3E4;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D639;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D3BC;
+Reference = Q1;
+ValeurCmp = 2N2222;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D294;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D2A6;
+Reference = R2;
+ValeurCmp = 100K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D38F;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D3D5;
+Reference = R4;
+ValeurCmp = 180;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5278D46B;
+Reference = SP1;
+ValeurCmp = 8 ohm;
+IdModule  = R4;
+EndCmp
+
+EndListe
