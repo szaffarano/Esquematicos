@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Tue 05 Nov 2013 22:53:47 ART
+
+BeginCmp
+TimeStamp = /5279825F;
+Reference = BZ1;
+ValeurCmp = BUZZER;
+IdModule  = BUZ3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798E33;
+Reference = C1;
+ValeurCmp = 0.1 uF 50V;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52799D72;
+Reference = C2;
+ValeurCmp = CAPAPOL;
+IdModule  = Elko_vert_DM5_RM2-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798D4A;
+Reference = D1;
+ValeurCmp = 1N4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5279845C;
+Reference = D2;
+ValeurCmp = ZENER 12V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798474;
+Reference = D3;
+ValeurCmp = ZENER 12V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /527983F7;
+Reference = D4;
+ValeurCmp = 4148;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798296;
+Reference = D5;
+ValeurCmp = Rojo;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /527982A3;
+Reference = D6;
+ValeurCmp = Verde;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798D59;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798C79;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798580;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798C68;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /527988D5;
+Reference = POT1;
+ValeurCmp = 1M;
+IdModule  = POT_CMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /527987BC;
+Reference = PUSH1;
+ValeurCmp = Pulsador;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798429;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5279876F;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798893;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /527984D0;
+Reference = R4;
+ValeurCmp = 4M7;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798308;
+Reference = R5;
+ValeurCmp = 1K2;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798B5A;
+Reference = R6;
+ValeurCmp = 1K2;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /527986E4;
+Reference = SW1;
+ValeurCmp = Llave Inversora;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52798194;
+Reference = U1;
+ValeurCmp = 40106;
+IdModule  = DIP-14__300;
+EndCmp
+
+EndListe
