@@ -1,4 +1,4 @@
-update=Mon 28 Oct 2013 14:41:56 ART
+update=Tue 05 Nov 2013 20:42:08 ART
 version=1
 last_client=eeschema
 [cvpcb]
@@ -84,4 +84,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/sebas/Descargas/buzzer/o_device
+LibName31=w_device
