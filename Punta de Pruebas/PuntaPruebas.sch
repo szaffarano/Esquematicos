@@ -29,9 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:w_device
 LIBS:PuntaPruebas-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -40,7 +39,7 @@ Title "Punta Lógica con generador de Pulsos"
 Date "6 nov 2013"
 Rev "1.0"
 Comp "Nestor A. Scoccia"
-Comment1 ""
+Comment1 "Proyecto N° 3"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -583,7 +582,7 @@ L CAPAPOL C2
 U 1 1 52799D72
 P 3650 4950
 F 0 "C2" H 3700 5050 40  0000 L CNN
-F 1 "CAPAPOL" H 3700 4850 40  0000 L CNN
+F 1 "1 uF" H 3700 4850 40  0000 L CNN
 F 2 "~" H 3750 4800 30  0000 C CNN
 F 3 "~" H 3650 4950 300 0000 C CNN
 	1    3650 4950

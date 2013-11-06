@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source "/home/sebas/Circuitos/Punta de Pruebas/PuntaPruebas.sch")
-    (date "Tue 05 Nov 2013 22:38:15 ART")
-    (tool "eeschema (2013-june-11)-stable"))
+    (source "/home/sebas/tmp/Esquematicos/Punta de Pruebas/PuntaPruebas.sch")
+    (date "mié 06 nov 2013 09:26:25 ART")
+    (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref U1)
       (value 40106)
@@ -11,7 +11,7 @@
       (tstamp 52798194))
     (comp (ref BZ1)
       (value BUZZER)
-      (libsource (lib w_device) (part BUZZER))
+      (libsource (lib PuntaPruebas-cache) (part BUZZER))
       (sheetpath (names /) (tstamps /))
       (tstamp 5279825F))
     (comp (ref D5)
@@ -61,7 +61,7 @@
       (tstamp 52798580))
     (comp (ref SW1)
       (value "Llave Inversora")
-      (libsource (lib w_device) (part SW_SPDT))
+      (libsource (lib PuntaPruebas-cache) (part SW_SPDT))
       (sheetpath (names /) (tstamps /))
       (tstamp 527986E4))
     (comp (ref R2)
@@ -115,7 +115,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 52798E33))
     (comp (ref C2)
-      (value CAPAPOL)
+      (value "1 uF")
       (libsource (lib device) (part CAPAPOL))
       (sheetpath (names /) (tstamps /))
       (tstamp 52799D72)))
@@ -128,9 +128,7 @@
         (fp C1-1))
       (fields
         (field (name Reference) C)
-        (field (name Value) C)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) C))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -141,9 +139,7 @@
         (fp SM*))
       (fields
         (field (name Reference) C)
-        (field (name Value) CP)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) CP))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -154,9 +150,7 @@
         (fp S*))
       (fields
         (field (name Reference) D)
-        (field (name Value) DIODE)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) DIODE))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -171,9 +165,7 @@
         (fp LEDV))
       (fields
         (field (name Reference) D)
-        (field (name Value) LED)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) LED))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -181,9 +173,7 @@
       (description Potentionmetre)
       (fields
         (field (name Reference) RV)
-        (field (name Value) POT)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) POT))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))
@@ -198,9 +188,7 @@
         (fp SM1206))
       (fields
         (field (name Reference) R)
-        (field (name Value) R)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) R))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -208,9 +196,7 @@
       (description "Push Button")
       (fields
         (field (name Reference) SW)
-        (field (name Value) SW_PUSH)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) SW_PUSH))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
@@ -222,9 +208,7 @@
         (fp SM*))
       (fields
         (field (name Reference) D)
-        (field (name Value) ZENER)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) ZENER))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -232,18 +216,14 @@
       (description "1 pin")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_1)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) CONN_1))
       (pins
         (pin (num 1) (name 1) (type passive))))
     (libpart (lib conn) (part CONN_2)
       (description "Symbole general de connecteur")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_2)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
+        (field (name Value) CONN_2))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))))
@@ -266,16 +246,14 @@
         (pin (num 12) (name Out) (type output))
         (pin (num 13) (name In) (type input))
         (pin (num 14) (name VDD) (type power_in))))
-    (libpart (lib w_device) (part buzzer)
-      (description Buzzer)
+    (libpart (lib PuntaPruebas-cache) (part buzzer)
       (fields
         (field (name Reference) BZ)
         (field (name Value) buzzer))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib w_device) (part SW_SPDT)
-      (description "Switch SPDT")
+    (libpart (lib PuntaPruebas-cache) (part SW_SPDT)
       (fields
         (field (name Reference) SW)
         (field (name Value) SW_SPDT))
@@ -286,12 +264,12 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical PuntaPruebas-cache)
+      (uri "/home/sebas/tmp/Esquematicos/Punta de Pruebas/PuntaPruebas-cache.lib"))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical cmos4000)
-      (uri /usr/share/kicad/library/cmos4000.lib))
-    (library (logical w_device)
-      (uri /usr/share/kicad/library/w_device.lib)))
+      (uri /usr/share/kicad/library/cmos4000.lib)))
   (nets
     (net (code 1) (name "")
       (node (ref D5) (pin 2))
