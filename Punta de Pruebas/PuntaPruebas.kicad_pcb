@@ -1,9 +1,9 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-june-11)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
 
   (general
     (links 38)
     (no_connects 0)
-    (area 171.543134 132.429956 233.755001 171.525001)
+    (area 172.051134 132.429956 233.755001 171.525001)
     (thickness 1.6)
     (drawings 4)
     (tracks 144)
@@ -59,11 +59,11 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
     (pcbplotparams
-      (layerselection 279609344)
+      (layerselection 271220736)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.150000)
-      (plotframeref true)
+      (plotframeref false)
       (viasonmask false)
       (mode 1)
       (useauxorigin false)
@@ -77,7 +77,7 @@
       (plotvalue true)
       (plotothertext true)
       (plotinvisibletext false)
-      (padsonsilk true)
+      (padsonsilk false)
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
@@ -134,13 +134,13 @@
     (add_net VSS)
   )
 
-  (module R3 (layer F.Cu) (tedit 527AF9FB) (tstamp 5279A62F)
+  (module R3 (layer F.Cu) (tedit 527B8D99) (tstamp 5279A62F)
     (at 209.55 137.16)
     (descr "Resitance 3 pas")
     (tags R)
     (path /52798308)
     (autoplace_cost180 10)
-    (fp_text reference R5 (at 0 0.127) (layer F.SilkS) hide
+    (fp_text reference R5 (at -0.508 -2.032) (layer F.SilkS) hide
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value 1K2 (at -0.254 0) (layer F.SilkS)
@@ -204,13 +204,13 @@
     )
   )
 
-  (module R3 (layer F.Cu) (tedit 527AF9C3) (tstamp 527AF3B4)
+  (module R3 (layer F.Cu) (tedit 527B8D62) (tstamp 527AF3B4)
     (at 211.074 169.418 180)
     (descr "Resitance 3 pas")
     (tags R)
     (path /52798B5A)
     (autoplace_cost180 10)
-    (fp_text reference R6 (at 0 0.127 180) (layer F.SilkS) hide
+    (fp_text reference R6 (at 0.254 2.286 180) (layer F.SilkS) hide
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value 1K2 (at 0.254 0 180) (layer F.SilkS)
@@ -239,13 +239,13 @@
     )
   )
 
-  (module R3 (layer F.Cu) (tedit 527AF9D3) (tstamp 5279A65C)
+  (module R3 (layer F.Cu) (tedit 527B8D5C) (tstamp 5279A65C)
     (at 196.85 167.386)
     (descr "Resitance 3 pas")
     (tags R)
     (path /527984D0)
     (autoplace_cost180 10)
-    (fp_text reference R4 (at 0 0.127) (layer F.SilkS) hide
+    (fp_text reference R4 (at -0.254 2.286) (layer F.SilkS) hide
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value 4M7 (at 0 0) (layer F.SilkS)
@@ -274,13 +274,13 @@
     )
   )
 
-  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 5279A64D)
+  (module R3 (layer F.Cu) (tedit 527B8D43) (tstamp 5279A64D)
     (at 176.022 158.242 270)
     (descr "Resitance 3 pas")
     (tags R)
     (path /5279876F)
     (autoplace_cost180 10)
-    (fp_text reference R2 (at 0 0.127 270) (layer F.SilkS) hide
+    (fp_text reference R2 (at 0 -2.032 270) (layer F.SilkS) hide
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value 10K (at 0 0.127 270) (layer F.SilkS)
@@ -377,11 +377,11 @@
     )
   )
 
-  (module PINHEAD1-2 (layer F.Cu) (tedit 527AF408) (tstamp 5279A5C3)
+  (module PINHEAD1-2 (layer F.Cu) (tedit 527B8D4D) (tstamp 5279A5C3)
     (at 178.816 140.208 180)
     (path /527987BC)
     (attr virtual)
-    (fp_text reference PUSH1 (at 0 -4.318 180) (layer F.SilkS)
+    (fp_text reference PUSH1 (at -0.254 -2.286 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.0889)))
     )
     (fp_text value Pulsador (at -0.254 4.318 180) (layer F.SilkS)
@@ -402,7 +402,7 @@
     )
   )
 
-  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 5279A620)
+  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 527B8D51) (tstamp 5279A620)
     (at 180.34 147.32 180)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
@@ -410,7 +410,7 @@
     (fp_text reference SW1 (at 0.254 -2.159 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
-    (fp_text value "Llave Inversora" (at 0 -2.159 180) (layer F.SilkS) hide
+    (fp_text value "Llave Inversora" (at -0.508 2.286 180) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
     (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.1524))
@@ -437,15 +437,15 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 5279A6DF)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 527B8D79) (tstamp 5279A6DF)
     (at 229.87 138.43 270)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /52798C79)
-    (fp_text reference P1 (at 0 -1.905 270) (layer F.SilkS)
+    (fp_text reference P1 (at -3.556 0.254 270) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value CONN_2 (at 0 -1.905 270) (layer F.SilkS) hide
+    (fp_text value CONN_2 (at 0 -2.032 270) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -467,12 +467,12 @@
     )
   )
 
-  (module PIN_ARRAY_1 (layer F.Cu) (tedit 4E4E744E) (tstamp 5279A6F3)
+  (module PIN_ARRAY_1 (layer F.Cu) (tedit 527B8D26) (tstamp 5279A6F3)
     (at 200.152 136.398)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /52798C68)
-    (fp_text reference P3 (at 0 -1.905) (layer F.SilkS)
+    (fp_text reference P3 (at -0.254 2.032) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_text value CONN_1 (at 0 -1.905) (layer F.SilkS) hide
@@ -493,15 +493,15 @@
     )
   )
 
-  (module PIN_ARRAY_1 (layer F.Cu) (tedit 4E4E744E) (tstamp 527AF3BE)
+  (module PIN_ARRAY_1 (layer F.Cu) (tedit 527B8D22) (tstamp 527AF3BE)
     (at 194.818 136.398 180)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /52798580)
-    (fp_text reference P2 (at 0 -1.905 180) (layer F.SilkS)
+    (fp_text reference P2 (at 0 -2.032 180) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value CONN_1 (at 0 -1.905 180) (layer F.SilkS) hide
+    (fp_text value CONN_1 (at -0.254 2.032 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.1524))
@@ -660,10 +660,10 @@
     (tags "Electrolytic Capacitor, vertical, diameter 5mm, radial, RM 2,5mm, Elko, Electrolytkondensator, Kondensator gepolt, Durchmesser 5mm")
     (path /52799D72)
     (fp_text reference C2 (at 0 -3.81 270) (layer F.SilkS)
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
     (fp_text value CAPAPOL (at 0 3.81 270) (layer F.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.0668 -1.524) (end 0 -1.524) (layer F.Cu) (width 0.381))
     (fp_line (start -0.508 -2.032) (end -0.508 -0.9906) (layer F.Cu) (width 0.381))
@@ -759,7 +759,7 @@
     )
   )
 
-  (module D3 (layer F.Cu) (tedit 200000) (tstamp 5279A613)
+  (module D3 (layer F.Cu) (tedit 527B8D3E) (tstamp 5279A613)
     (at 180.086 158.242 270)
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
@@ -767,7 +767,7 @@
     (fp_text reference D3 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value "ZENER 12V" (at 0 0 270) (layer F.SilkS) hide
+    (fp_text value "ZENER 12V" (at 0.254 -2.286 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 3.81 0) (end 3.048 0) (layer F.SilkS) (width 0.3048))
@@ -795,12 +795,12 @@
     )
   )
 
-  (module D3 (layer F.Cu) (tedit 200000) (tstamp 5279A602)
+  (module D3 (layer F.Cu) (tedit 527B8D2F) (tstamp 5279A602)
     (at 184.404 163.576 270)
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
     (path /5279845C)
-    (fp_text reference D2 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference D2 (at 0 -2.032 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value "ZENER 12V" (at 0 0 270) (layer F.SilkS) hide
@@ -831,12 +831,12 @@
     )
   )
 
-  (module D3 (layer F.Cu) (tedit 200000) (tstamp 5279A5F1)
+  (module D3 (layer F.Cu) (tedit 527B8D2C) (tstamp 5279A5F1)
     (at 189.23 163.576 270)
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
     (path /527983F7)
-    (fp_text reference D4 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference D4 (at -0.254 -2.032 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 4148 (at 0 0 270) (layer F.SilkS) hide
@@ -867,12 +867,12 @@
     )
   )
 
-  (module D3 (layer F.Cu) (tedit 527AF9DC) (tstamp 5279A5E0)
+  (module D3 (layer F.Cu) (tedit 527B8D67) (tstamp 5279A5E0)
     (at 227.33 144.526 180)
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
     (path /52798D4A)
-    (fp_text reference D1 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference D1 (at 0.254 -2.032 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 1N4007 (at 0 0 180) (layer F.SilkS) hide
@@ -903,12 +903,12 @@
     )
   )
 
-  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 5279A6D4)
+  (module C1 (layer F.Cu) (tedit 527B8D6F) (tstamp 5279A6D4)
     (at 224.79 138.43 90)
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /52798E33)
-    (fp_text reference C1 (at 0.254 -2.286 90) (layer F.SilkS)
+    (fp_text reference C1 (at 0 2.286 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value "0.1 uF 50V" (at 0 -2.286 90) (layer F.SilkS) hide
@@ -938,10 +938,10 @@
     (at 211.582 154.94 90)
     (path /5279825F)
     (fp_text reference BZ1 (at -0.508 -3.048 90) (layer F.SilkS)
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
     (fp_text value BUZZER (at 0 3.302 90) (layer F.SilkS)
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
     (fp_circle (center 0 0) (end -6.35 0) (layer F.SilkS) (width 0.3175))
     (pad 1 thru_hole rect (at -3.81 0 90) (size 1.4224 1.4224) (drill 0.8128)
