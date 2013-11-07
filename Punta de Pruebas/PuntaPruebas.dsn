@@ -26,7 +26,7 @@
     )
     (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
     (rule
-      (width 254)
+      (width 508)
       (clearance 254.1)
       (clearance 254.1 (type default_smd))
       (clearance 63.5 (type smd_smd))
@@ -35,17 +35,17 @@
   (placement
     (component R3
       (place R5 209550 -137160 front 0 (PN 1K2))
-      (place R1 191770 -154940 front 90 (PN 10K))
-      (place R6 199390 -148590 front 90 (PN 1K2))
-      (place R4 195580 -162560 front 0 (PN 4M7))
-      (place R2 176530 -154940 front 270 (PN 10K))
-      (place R3 203200 -148590 front 270 (PN 10K))
+      (place R1 188976 -150622 front 180 (PN 10K))
+      (place R6 211074 -169418 front 180 (PN 1K2))
+      (place R4 196850 -167386 front 0 (PN 4M7))
+      (place R2 176022 -158242 front 270 (PN 10K))
+      (place R3 198628 -148336 front 270 (PN 10K))
     )
     (component POT_CMS
       (place POT1 187960 -140970 front 180 (PN 1M))
     )
     (component "PINHEAD1-2"
-      (place PUSH1 179070 -140970 front 180 (PN Pulsador))
+      (place PUSH1 178816 -140208 front 180 (PN Pulsador))
     )
     (component PIN_ARRAY_3X1
       (place SW1 180340 -147320 front 180 (PN "Llave Inversora"))
@@ -54,8 +54,8 @@
       (place P1 229870 -138430 front 270 (PN CONN_2))
     )
     (component PIN_ARRAY_1
-      (place P3 195580 -152400 front 0 (PN CONN_1))
-      (place P2 195580 -157480 front 180 (PN CONN_1))
+      (place P3 200152 -136398 front 0 (PN CONN_1))
+      (place P2 194818 -136398 front 180 (PN CONN_1))
     )
     (component "LED-3MM"
       (place D7 208280 -142240 front 90 (PN LED))
@@ -63,22 +63,22 @@
       (place D6 218440 -142240 front 270 (PN Verde))
     )
     (component "Elko_vert_DM5_RM2-5"
-      (place C2 201930 -157480 front 270 (PN CAPAPOL))
+      (place C2 198882 -159004 front 270 (PN CAPAPOL))
     )
     (component "DIP-14__300"
-      (place U1 210820 -157480 front 270 (PN 40106))
+      (place U1 226314 -157734 front 270 (PN 40106))
     )
     (component D3
-      (place D3 180340 -154940 front 270 (PN "ZENER 12V"))
-      (place D2 184150 -154940 front 270 (PN "ZENER 12V"))
-      (place D4 187960 -154940 front 270 (PN 4148))
-      (place D1 227330 -144780 front 180 (PN 1N4007))
+      (place D3 180086 -158242 front 270 (PN "ZENER 12V"))
+      (place D2 184404 -163576 front 270 (PN "ZENER 12V"))
+      (place D4 189230 -163576 front 270 (PN 4148))
+      (place D1 227330 -144526 front 180 (PN 1N4007))
     )
     (component C1
       (place C1 224790 -138430 front 90 (PN "0.1 uF 50V"))
     )
     (component "BUZ3-5"
-      (place BZ1 226060 -161290 front 270 (PN BUZZER))
+      (place BZ1 211582 -154940 front 90 (PN BUZZER))
     )
   )
   (library
@@ -117,7 +117,7 @@
       (outline (path signal 254  -2540 3175  -2540 -3175))
       (outline (path signal 254  2540 3175  2540 -3175))
       (pin Oval[A]Pad_1506.22x3014.98_um 1 -1270 0)
-      (pin Oval[TB]Pad_1506.22x3014.98_um 2 1270 0)
+      (pin Oval[A]Pad_1506.22x3014.98_um 2 1270 0)
     )
     (image PIN_ARRAY_3X1
       (outline (path signal 152.4  -3810 -1270  -3810 1270))
@@ -247,11 +247,6 @@
       (shape (path B.Cu 1506.22  0 -754.38  0 754.38))
       (attach off)
     )
-    (padstack Oval[TB]Pad_1506.22x3014.98_um
-      (shape (path F.Cu 1506.22  0 -754.38  0 754.38))
-      (shape (path B.Cu 1506.22  0 -754.38  0 754.38))
-      (attach off)
-    )
     (padstack Rect[T]Pad_1270x1524_um
       (shape (rect F.Cu -635 -762 635 762))
       (attach off)
@@ -345,7 +340,7 @@
         (use_via Via[0-1]_889:635_um)
       )
       (rule
-        (width 254)
+        (width 508)
         (clearance 254.1)
       )
     )
