@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Tue 05 Nov 2013 22:53:47 ART
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Fri 08 Nov 2013 18:46:13 ART
 
 BeginCmp
 TimeStamp = /5279825F;
@@ -17,7 +17,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52799D72;
 Reference = C2;
-ValeurCmp = CAPAPOL;
+ValeurCmp = 1 uF;
 IdModule  = Elko_vert_DM5_RM2-5;
 EndCmp
 
@@ -66,7 +66,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52798D59;
 Reference = D7;
-ValeurCmp = LED;
+ValeurCmp = Amarillo;
 IdModule  = LED-3MM;
 EndCmp
 
@@ -95,14 +95,14 @@ BeginCmp
 TimeStamp = /527988D5;
 Reference = POT1;
 ValeurCmp = 1M;
-IdModule  = POT_CMS;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /527987BC;
 Reference = PUSH1;
 ValeurCmp = Pulsador;
-IdModule  = PINHEAD1-2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
