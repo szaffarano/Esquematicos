@@ -21,11 +21,12 @@
       )
     )
     (boundary
-      (rect pcb 245262 -75996.8 290735 -116491)
+      (path pcb 0  200000 -118000  200000 -70000  275000 -70000  275000 -118000
+            200000 -118000)
     )
-    (via "Via[0-1]_1900:1200_um" "Via[0-1]_1900:0_um")
+    (via "Via[0-1]_2100:1700_um" "Via[0-1]_2100:0_um")
     (rule
-      (width 1000)
+      (width 1130)
       (clearance 254.1)
       (clearance 254.1 (type default_smd))
       (clearance 63.5 (type smd_smd))
@@ -33,47 +34,47 @@
   )
   (placement
     (component R3
-      (place R5 270764 -105664 front 0 (PN 1K2))
-      (place R1 250444 -98044 front 270 (PN 10K))
-      (place R6 258826 -87122 front 90 (PN 1K2))
-      (place R4 255270 -107188 front 0 (PN 4M7))
-      (place R2 246634 -104902 front 90 (PN 10K))
-      (place R3 266954 -85852 front 270 (PN 10K))
+      (place R5 228041 -111760 front 270 (PN 1K2))
+      (place R1 213970 -97790 front 270 (PN 10K))
+      (place R6 221437 -84886.8 front 90 (PN 1K2))
+      (place R4 214986 -107848 front 0 (PN 4M7))
+      (place R2 204368 -111049 front 90 (PN 10K))
+      (place R3 231851 -91236.8 front 270 (PN 10K))
     )
     (component PIN_ARRAY_3X1
-      (place SW1 246888 -92202 front 270 (PN "Llave Inversora"))
-      (place POT1 269494 -78994 front 0 (PN 1M))
+      (place SW1 209702 -86868 front 270 (PN "Llave Inversora"))
+      (place POT1 237287 -73456.8 front 0 (PN 1M))
     )
     (component PIN_ARRAY_2X1
-      (place P1 285750 -80772 front 90 (PN CONN_2))
-      (place PUSH1 260096 -111506 front 180 (PN Pulsador))
+      (place P1 270002 -76301.6 front 90 (PN CONN_2))
+      (place PUSH1 219761 -115214 front 180 (PN Pulsador))
     )
     (component PIN_ARRAY_1
-      (place P3 285750 -90932 front 0 (PN CONN_1))
-      (place P2 255270 -80010 front 0 (PN CONN_1))
+      (place P3 270154 -90525.6 front 0 (PN CONN_1))
+      (place P2 220320 -75133.2 front 0 (PN CONN_1))
     )
     (component "LED-3MM"
-      (place D7 261112 -79756 front 180 (PN Amarillo))
-      (place D5 274828 -110490 front 270 (PN Rojo))
-      (place D6 267716 -110744 front 90 (PN Verde))
+      (place D7 227432 -77012.8 front 180 (PN Amarillo))
+      (place D5 250241 -113436 front 270 (PN Rojo))
+      (place D6 237439 -113436 front 90 (PN Verde))
     )
     (component "Elko_vert_DM5_RM2-5"
-      (place C2 274320 -87630 front 0 (PN "1 uF"))
+      (place C2 246990 -76352.4 front 270 (PN "1 uF"))
     )
     (component "DIP-14__300"
-      (place U1 276098 -97790 front 0 (PN 40106))
+      (place U1 249834 -89966.8 front 0 (PN 40106))
     )
     (component D3
-      (place D3 259842 -98044 front 270 (PN "ZENER 12V"))
-      (place D2 255524 -98044 front 270 (PN "ZENER 12V"))
-      (place D4 250952 -83312 front 270 (PN 4148))
-      (place D1 278892 -78740 front 180 (PN 1N4007))
+      (place D3 242519 -103683 front 90 (PN "ZENER 12V"))
+      (place D2 222707 -97434.4 front 270 (PN "ZENER 12V"))
+      (place D4 209652 -74574.4 front 180 (PN 4148))
+      (place D1 259588 -74218.8 front 180 (PN 1N4007))
     )
     (component C1
-      (place C1 284226 -86360 front 0 (PN "0.1 uF 50V"))
+      (place C1 268681 -84378.8 front 0 (PN "0.1 uF 50V"))
     )
     (component "BUZ3-5"
-      (place BZ1 283972 -109728 front 270 (PN BUZZER))
+      (place BZ1 265125 -105359 front 270 (PN BUZZER))
     )
   )
   (library
@@ -227,14 +228,14 @@
       (shape (rect B.Cu -762 -762 762 762))
       (attach off)
     )
-    (padstack "Via[0-1]_1900:1200_um"
-      (shape (circle F.Cu 1900))
-      (shape (circle B.Cu 1900))
+    (padstack "Via[0-1]_2100:1700_um"
+      (shape (circle F.Cu 2100))
+      (shape (circle B.Cu 2100))
       (attach off)
     )
-    (padstack "Via[0-1]_1900:0_um"
-      (shape (circle F.Cu 1900))
-      (shape (circle B.Cu 1900))
+    (padstack "Via[0-1]_2100:0_um"
+      (shape (circle F.Cu 2100))
+      (shape (circle B.Cu 2100))
       (attach off)
     )
   )
@@ -298,10 +299,10 @@
       "N-000003" "N-000004" "N-000006" "N-000007" "N-000008" "N-000009" VDD
       VSS
       (circuit
-        (use_via Via[0-1]_1900:1200_um)
+        (use_via Via[0-1]_2100:1700_um)
       )
       (rule
-        (width 1000)
+        (width 1130)
         (clearance 254.1)
       )
     )

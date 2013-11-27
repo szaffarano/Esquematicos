@@ -986,7 +986,7 @@
     (arrow2b (pts (xy 243.4844 74.168002) (xy 244.610903 73.581582)))
   )
   (gr_text "V1.0 11.2013" (at 253.365 115.189) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_circle (center 290.068 76.708) (end 290.576 76.454) (layer Edge.Cuts) (width 0.25))
   (gr_circle (center 290.068 115.57) (end 290.322 116.078) (layer Edge.Cuts) (width 0.25))
